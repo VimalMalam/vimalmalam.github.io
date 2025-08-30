@@ -6,7 +6,7 @@
 <!-- Social Links -->
 <p align="center">
   <a href="https://vimalmalam.github.io"><img src="https://img.shields.io/badge/MalamVimal-Portfolio-brightgreen?labelColor=white" alt="Malam Vimal Portfolio"></a>
-  <a href="https://github.com/VimalMalam"><img src="https://img.shields.io/github/followers/MalamVimal?style=social&label=github" alt="GitHub followers"></a>
+  <a href="https://github.com/VimalMalam"><img src="https://img.shields.io/github/followers/VimalMalam?style=social&label=github" alt="GitHub followers"></a>
   <a href="https://www.linkedin.com/in/vimal-malam"><img src="https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin" alt="LinkedIn profile"></a>
   <a href="https://instagram.com/v_m5146"><img src="https://img.shields.io/badge/Instagram--pink?style=social&logo=instagram" alt="Instagram follow"></a>
 </p>
