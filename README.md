@@ -5,12 +5,10 @@
 
 <!-- Social Links -->
 <p align="center">
-  <a href="https://bhatujay.github.io"><img src="https://img.shields.io/badge/BhatuJay-Portfolio-brightgreen?labelColor=white" alt="Bhatu Jay Portfolio"></a>
-  <a href="https://github.com/BhatuJay"><img src="https://img.shields.io/github/followers/BhatuJay?style=social&label=github" alt="GitHub followers"></a>
-  <a href="https://linkedin.com/in/jaybhatu"><img src="https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="https://x.com/AhirBhatuJay"><img src="https://img.shields.io/twitter/follow/AhirBhatuJay?style=social" alt="Twitter Follow"></a>
-  <a href="https://instagram.com/jay_bhatu_2135"><img src="https://img.shields.io/badge/Instagram--pink?style=social&logo=instagram" alt="Instagram follow"></a>
-  <a href="https://youtube.com/@bhatujay"><img src="https://img.shields.io/badge/YouTube--red?style=social&logo=youtube" alt="YouTube subscribe"></a>
+  <a href="https://vimalmalam.github.io"><img src="https://img.shields.io/badge/MalamVimal-Portfolio-brightgreen?labelColor=white" alt="Malam Vimal Portfolio"></a>
+  <a href="https://github.com/VimalMalam"><img src="https://img.shields.io/github/followers/MalamVimal?style=social&label=github" alt="GitHub followers"></a>
+  <a href="https://www.linkedin.com/in/vimal-malam"><img src="https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="https://instagram.com/v_m5146"><img src="https://img.shields.io/badge/Instagram--pink?style=social&logo=instagram" alt="Instagram follow"></a>
 </p>
 
 ---
@@ -18,13 +16,13 @@
 ## 🚀 Live Demo  
 
 <p align="center">
-  <a href="https://bhatujay.github.io" target="_blank">
-    <img src="assets/BhatuJay.png" alt="Live Portfolio Preview" width="200" />
+  <a href="https://vimalmalam.github.io" target="_blank">
+    <img src="assets/MalamVimal.png" alt="Live Portfolio Preview" width="200" />
   </a>
 </p>
 
 <p align="center">
-  👉 <a href="https://bhatujay.github.io" target="_blank">Click here or LOGO to visit my Portfolio Website</a>
+  👉 <a href="https://vimalmalam.github.io" target="_blank">Click here or LOGO to visit my Portfolio Website</a>
 </p>
 
 ---
@@ -51,12 +49,3 @@
 - **GitHub Pages** – Free hosting  
 
 ---
-
-## ⚡ Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/BhatuJay/BhatuJay.github.io.git
-cd BhatuJay.github.io
-
-# Open index.html in your browser
