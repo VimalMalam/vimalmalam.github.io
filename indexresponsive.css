@@ -1,0 +1,585 @@
+@import url('https://fonts.cdnfonts.com/css/batman-forever');
+
+/* === BASE STYLES === */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    scroll-behavior: smooth; /* Added for smooth scrolling */
+}
+
+.main-container-color {
+    background-color: #F5F7FA;
+}
+
+.main-container-width {
+    max-width: 1200px; /* Changed from width to max-width */
+    width: 90%;       /* Use percentage for flexibility */
+    margin: auto;
+}
+
+/* === NAVIGATION === */
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 1000;
+    display: flex;
+    height: 84px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5%; /* Add padding for smaller screens */
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.jblogo-nav {
+    color: #C82624;
+    font-size: 24px;
+    font-family: BatmanForeverAlternate;
+}
+
+/* Scroll margin for anchor links */
+#Home, #About_Me, #Skills, #Projects, #Contact {
+    scroll-margin-top: 100px; 
+}
+
+.nav-container-link {
+    display: flex; /* Changed from default */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-container-btn2 {
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF4F;
+}
+
+.hamburger {
+    display: none; /* Hide by default on desktop */
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* === HERO SECTION (HOME) === */
+.main-container-body {
+    display: flex;
+    margin: auto;
+    padding-top: 90px; /* Adjusted padding */
+    min-height: calc(100vh - 90px); /* Use min-height for flexibility */
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.main-container-forh1 {
+    font-size: 64px;
+    max-width: 657px;
+    margin: 0;
+}
+
+.main-container-secondh1 {
+    color: #4CAF4F;
+    display: block; /* Ensures it goes to the next line if needed */
+}
+
+.main-container-p {
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+.nav-container-btn3 {
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    width: 128px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: #4CAF4F;
+}
+
+.profile-img {
+    max-width: 400px; /* Use max-width to allow shrinking */
+    width: 100%;
+    height: auto;     /* Maintain aspect ratio */
+}
+
+.main-container-circles {
+    display: none; /* Hiding these as they can complicate responsive layout */
+}
+
+/* === ABOUT ME / OUR CLIENTS SECTION === */
+.ourclients-container-text {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.ourclients-container-h1 {
+    color: #4D4D4D;
+    font-size: 36px;
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+.ourclients-container-p {
+    margin: 10px;
+    color: #717171;
+}
+
+.ourclients-container-logos {
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Allow logos to wrap */
+}
+
+.reactlogo, .html5logo, .csslogo, .gitlogo, .githublogo, .javascriptlogo, .vercellogo {
+    width: 40px;
+}
+
+.ourclients-container-groups {
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allow cards to wrap */
+}
+
+.ourclients-container-group {
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    padding: 20px;
+    flex-basis: 300px; /* Give a base width to each card */
+}
+
+.ourclients-container-group-h1 {
+    color: #4D4D4D;
+    font-size: 28px;
+    margin: auto;
+    max-width: 220px;
+}
+
+.ourclients-container-group p {
+    color: #717171;
+    font-size: 14px;
+    max-width: 250px;
+    margin: 10px auto;
+}
+
+/* === SKILLS / FOURTH PAGE === */
+.fourth-container-body {
+    display: flex;
+    padding: 60px 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.fourth-container-h1 {
+    color: #4CAF4F;
+    font-size: 36px;
+}
+
+.fourth-container-p {
+    color: #18191F;
+}
+
+.fourth-container-icons {
+    display: flex;
+    max-width: 540px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.fourth-container-icon {
+    display: flex;
+    width: 255px;
+    align-items: center;
+    gap: 15px;
+}
+
+.commitlogo, .openbooklogo, .projectscompletedlogo, .coretechnologieslogo {
+    width: 48px;
+}
+
+.fourth-container-icon-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fourth-container-icon-h1, .fourth-container-icon-p {
+    margin: 0;
+}
+
+/* === PROJECTS / SEVENTH PAGE === */
+.seventh-container-body {
+    margin: 50px auto;
+}
+
+.seventh-container-body-heading {
+    text-align: center;
+    margin: 16px auto 40px;
+}
+
+.seventh-container-h1 {
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 10px auto 0;
+}
+
+.seventh-container-p1 {
+    color: #717171;
+    font-weight: 400;
+    width: 100%;
+    max-width: 608px;
+    margin: 10px auto 0;
+}
+
+.seventh-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Make cards same height */
+    gap: 2rem;
+    flex-wrap: wrap; /* Allow cards to wrap */
+}
+
+.slider-container {
+    width: 100%;
+    max-width: 550px; /* Set a max-width for each card */
+    flex-grow: 1; /* Allow cards to grow */
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.slider-image-area {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-wrapper img {
+    width: 100%;
+    flex-shrink: 0;
+    display: block;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.slider-image-area:hover .slider-btn {
+    opacity: 1;
+}
+
+.prev-btn { left: 0.5rem; }
+.next-btn { right: 0.5rem; }
+
+.dots-container {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 9999px;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}
+
+.dot.active {
+    background-color: white;
+}
+
+.slider-body {
+    padding: 1.5rem;
+    border-top: 1px solid #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Makes body take available space */
+}
+
+.slider-body h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    flex-grow: 1; /* Pushes links to the bottom */
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+    background-color: #e5e7eb;
+    color: #4b5563;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.link-btn {
+    flex-grow: 1;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #d1d5db;
+    background-color: #ffffff;
+    color: #111827;
+}
+
+.link-btn.live-demo {
+    background-color: #111827;
+    color: #ffffff;
+}
+
+/* === CONTACT / EIGHTH PAGE === */
+.eighth-container-body {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.eighth-container-p1 {
+    margin: auto;
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #263238;
+    padding: 33px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.eighth-container-p2-body {
+    width: 110px;
+    height: 35px;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #4CAF4F;
+    padding: 14px 32px 14px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.eighth-container-p2-body a {
+    text-decoration: none;
+}
+
+.eighth-container-p2 {
+    color: white;
+    font-weight: 500;
+}
+
+.eighth-container-right-arrow {
+    width: 35px;
+}
+
+/* === FOOTER === */
+.footer-container-color {
+    background-color: rgba(38, 50, 56, 1);
+}
+
+footer {
+    background: #1f2a30;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.jblogo-footer {
+    color: #C82624;
+    font-size: 36px;
+    font-family: BatmanForeverAlternate;
+    margin: 10px auto;
+}
+
+footer .social-icons {
+    padding: 15px 0;
+}
+
+footer .social-icons a {
+    display: inline-block;
+    margin: 0 8px;
+}
+.footer-githublogo, .footer-linkdinlogo, .footer-instagramlogo, .footer-twitterxlogo {
+    width: 32px;
+}
+
+
+/*
+========================================
+    RESPONSIVE STYLES (MEDIA QUERIES)
+========================================
+*/
+
+/* === TABLET & SMALLER DESKTOPS (<= 1024px) === */
+@media (max-width: 1024px) {
+    .main-container-body,
+    .fourth-container-body,
+    .ourclients-container-groups,
+    .seventh-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fourth-container-body {
+        align-items: center;
+    }
+
+    .fourth-container-icons {
+        justify-content: center;
+    }
+
+    .main-container-forh1 {
+        font-size: 50px;
+    }
+
+    .eighth-container-p1 {
+        font-size: 48px;
+    }
+
+    .main-container-body {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+}
+
+
+/* === MOBILE DEVICES (<= 768px) === */
+@media (max-width: 768px) {
+    /* --- NAVIGATION --- */
+    .nav-container-link, .nav-linkedin-btn {
+        display: none; /* Hide nav links and button */
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger icon */
+    }
+
+    .nav-container {
+        justify-content: space-between; /* Adjust alignment for logo and hamburger */
+    }
+
+    .nav-container-link.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 84px; /* Position below navbar */
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        /* background-color: #f5f7fa; */
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        padding: 10px 0;
+    }
+
+    .nav-container-link.show a {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    /* --- HERO SECTION --- */
+    .main-container-body {
+        flex-direction: column-reverse; /* Put image on top */
+    }
+
+    .profile-img {
+        max-width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .main-container-forh1 {
+        font-size: 36px;
+    }
+
+    /* --- OTHER SECTIONS --- */
+    .ourclients-container-h1,
+    .fourth-container-h1,
+    .seventh-container-h1 {
+        font-size: 28px;
+    }
+
+    .eighth-container-p1 {
+        font-size: 32px;
+        padding: 20px 0;
+    }
+
+    .ourclients-container-logos {
+        gap: 20px;
+    }
+}
