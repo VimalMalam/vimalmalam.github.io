@@ -3,322 +3,326 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="assets/MalamVimal.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="assets/MalamVimal.png" />
-    <link rel="shortcut icon" href="assets/MalamVimal.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/MalamVimal.png" />
-    <meta name="apple-mobile-web-app-title" content="Malam Vimal" />
-    <link rel="manifest" href="/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malam Vimal - Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <title>Malam Vimal - Full Stack Developer</title>
+
+    <link rel="icon" type="image/png" href="assets/MalamVimal.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/batman-forever">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="indexresponsive.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="main-container-color">
-        <div class="main-container-width">
 
-            <div class="nav-container">
-                <div>
-                    <p class="jblogo-nav">Malam Vimal</p>
-                    <!-- <img src="assets/IMG1-task14.png" alt=""> -->
-                </div>
-                <!-- Hamburger button (mobile only) -->
-                <div class="hamburger" onclick="toggleMenu()">☰</div>
-                <ul class="nav-container-link">
-                    <a href="#Home">Home</a>
-                    <a href="#About_Me">About Me</a>
-                    <a href="#Skills">Skills</a>
-                    <a href="#Projects">Projects</a>
-                    <a href="#Contact">Contact</a>
-                </ul>
-                <div>
-                    <a href="https://www.linkedin.com/in/vimal-malam" target="_blank">
-                        <button class="nav-container-btn2">Linkedin</button>
-                    </a>
-                </div>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Malam Vimal</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="https://www.linkedin.com/in/vimal-malam" target="_blank">
+            <button class="nav-btn">LinkedIn</button>
+        </a>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-left">
+
+            <h1>
+                Hi, I'm
+                <span>Malam Vimal</span>
+            </h1>
+
+            <h2>Full Stack Developer</h2>
+
+            <p>
+                I build modern full stack web applications using React,
+                Node.js, Express, and MySQL with responsive UI,
+                authentication systems, REST APIs, and scalable backend architectures.
+            </p>
+
+            <div class="hero-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MySQL</span>
+                <span>JWT</span>
+                <span>REST API</span>
             </div>
 
-            <div class="main-container-body" id="Home">
-                <div>
-                    <h1 class="main-container-forh1">Hi, I'm Malam Vimal
-                        <span class="main-container-secondh1">Full Stack Developer</span>
-                    </h1>
-                    <p class="main-container-p">A frontend developer specializing in React and creating beautiful user
-                        experiences.</p>
-                    <a href="https://github.com/VimalMalam" target="_blank">
-                        <button class="nav-container-btn3">Github</button>
-                    </a>
-                </div>
-                <div>
-                    <img class="profile-img" src="assets/MalamVimal.png" alt="MalamVimal">
-                </div>
-                <div class="main-container-circles">
-                    <div><span class="main-container-circle1"></span></div>
-                    <div><span class="main-container-circle2"></span></div>
-                    <div><span class="main-container-circle3"></span></div>
-                </div>
+            <div class="hero-buttons">
+                <a href="https://github.com/VimalMalam" target="_blank">
+                    <button class="primary-btn">GitHub</button>
+                </a>
+
+                <a href="#projects">
+                    <button class="secondary-btn">View Projects</button>
+                </a>
             </div>
+
         </div>
+
+        <div class="hero-right">
+            <img src="assets/MalamVimal.png" alt="Malam Vimal">
+        </div>
+
     </section>
 
-    <!-- OURCLIENTS PAGE -->
-    <section id="About_Me">
-        <div class="main-container-width">
-            <div class="ourclients-container-text">
-                <h1 class="ourclients-container-h1">Technologies / Tools I Use</h1>
-                <p class="ourclients-container-p">I have been working with some Technologies</p>
-            </div>
-            <div class="ourclients-container-logos">
-                <div><img src="assets/react-color.svg" class="reactlogo" alt="React" title="React"></div>
-                <div><img src="assets/html5-color.svg" class="html5logo" alt="HTML" title="HTML"></div>
-                <div><img src="assets/css-color.svg" class="csslogo" alt="CSS" title="CSS"></div>
-                <div><img src="assets/javascript-color.svg" class="javascriptlogo" alt="JavaScript" title="JavaScript">
-                </div>
-                <div><img src="assets/git-color.svg" class="gitlogo" alt="Git" title="Git"></div>
-                <div><img src="assets/github-color.svg" class="githublogo" alt="Github" title="Github"></div>
-                <div><img src="assets/vercel-color.svg" class="vercellogo" alt="Vercel" title="Vercel"></div>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="section-title">
+            <h1>About Me</h1>
+            <p>Passionate Full Stack Developer focused on building modern and scalable applications.</p>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <h2>Frontend</h2>
+                <p>
+                    React.js, JavaScript, HTML5, CSS3,
+                    Tailwind CSS, Responsive Design
+                </p>
             </div>
 
-            <div class="ourclients-container-text">
-                <h1 class="ourclients-container-h1">Experience & Education</h1>
-                <p class="ourclients-container-p">A summary of my qualifications and key experiences.</p>
+            <div class="about-card">
+                <h2>Backend</h2>
+                <p>
+                    Node.js, Express.js, JWT Authentication,
+                    REST APIs, CRUD Operations
+                </p>
             </div>
 
-            <div class="ourclients-container-groups">
-                <div class="ourclients-container-group">
-                    <img src="assets/ourclients-group1-task14.png" alt="">
-                    <div>
-                        <h1 class="ourclients-container-group-h1">React.JS Internship</h1>
-                        <p class="ourclients-container-group-p1">Completed internship at TechRover Solutions, developing
-                            dynamic React applications including a Todo Task Portal and a Blog Content Portal with
-                            reusable UI components, state management, local storage persistence, and REST API
-                            integration.
-                        </p>
+            <div class="about-card">
+                <h2>Database</h2>
+                <p>
+                    MySQL, Stored Procedures,
+                    Database Design & Queries
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h2>Deployment</h2>
+                <p>
+                    GitHub, Vercel, Cloudinary,
+                    API Integration
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+
+        <div class="section-title">
+            <h1>Technologies I Use</h1>
+            <p>Modern technologies for building scalable applications.</p>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-box">
+                <img src="assets/react-color.svg" alt="">
+                <p>React</p>
+            </div>
+
+            <div class="skill-box">
+                <img src="assets/javascript-color.svg" alt="">
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill-box">
+                <img src="assets/html5-color.svg" alt="">
+                <p>HTML5</p>
+            </div>
+
+            <div class="skill-box">
+                <img src="assets/css-color.svg" alt="">
+                <p>CSS3</p>
+            </div>
+
+            <div class="skill-box">
+                <img src="assets/git-color.svg" alt="">
+                <p>Git</p>
+            </div>
+
+            <div class="skill-box">
+                <img src="assets/github-color.svg" alt="">
+                <p>GitHub</p>
+            </div>
+
+            <div class="skill-box">
+                <img src="assets/vercel-color.svg" alt="">
+                <p>Vercel</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+
+        <div class="section-title">
+            <h1>My Projects</h1>
+            <p>Projects showcasing frontend and backend development skills.</p>
+        </div>
+
+        <div class="project-grid">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+
+                <img src="assets/ProjectsImg/React_Todo_Home.png" alt="">
+
+                <div class="project-content">
+
+                    <div class="project-badge">
+                        Full Stack
                     </div>
-                </div>
-                <div class="ourclients-container-group">
-                    <img src="assets/ourclients-group2-task14.png" alt="">
-                    <h1 class="ourclients-container-group-h1">B.Sc.IT BKNMU University</h1>
-                    <p class="ourclients-container-group-p2">Graduated in B.Sc. IT from Bhakta Kavi Narsinh Mehta
-                        University with a strong foundation in computer science fundamentals, web technologies, data
-                        structures, and database management systems.
+
+                    <h2>React Todo Portal</h2>
+
+                    <p>
+                        Dynamic Todo Management System with CRUD operations,
+                        local storage persistence, and REST API integration.
                     </p>
+
+                    <ul>
+                        <li>CRUD Operations</li>
+                        <li>REST API Integration</li>
+                        <li>Responsive UI</li>
+                        <li>State Management</li>
+                    </ul>
+
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>API</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <a href="https://github.com/VimalMalam/React-Todo" target="_blank">
+                        <button class="primary-btn">GitHub</button>
+                    </a>
+
                 </div>
-                <div class="ourclients-container-group">
-                    <img src="assets/ourclients-group3-task14.png" alt="">
-                    <h1 class="ourclients-container-group-h1">Front-End Development</h1>
-                    <p class="ourclients-container-group-p1">
-                        Skilled in building responsive, user-friendly interfaces with React.js, with a strong eagerness
-                        to apply academic knowledge in real-world projects and continuously grow as a frontend
-                        developer.
+
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+
+                <img src="assets/ProjectsImg/Blog_Post_Home.png" alt="">
+
+                <div class="project-content">
+
+                    <div class="project-badge">
+                        Full Stack
+                    </div>
+
+                    <h2>React Blog Platform</h2>
+
+                    <p>
+                        Blog application with authentication,
+                        CRUD features, post management, and responsive design.
                     </p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- FOURTH PAGE -->
-    <section class="main-container-color" id="Skills">
-        <div class="main-container-width">
-            <div class="fourth-container-body">
-                <div>
-                    <h1 class="fourth-container-h1">Milestones at a Glance</h1>
-                    <p class="fourth-container-p">Fueled by a relentless curiosity and a love for building elegant
-                        solutions.</p>
-                </div>
-                <div class="fourth-container-icons">
-                    <div class="fourth-container-icon">
-                        <img src="assets/Projects-Completed-svgrepo.svg" class="projectscompletedlogo"
-                            alt="Projects-Completed-logo" title="Projects-Completed-logo">
-                        <div class="fourth-container-icon-text">
-                            <h1 class="fourth-container-icon-h1">3+</h1>
-                            <p class="fourth-container-icon-p">Projects Completed</p>
-                        </div>
-                    </div>
-                    <div class="fourth-container-icon">
-                        <img src="assets/githhub-commit-logo.svg" class="commitlogo" alt="commit-logo"
-                            title="commit-logo">
-                        <div class="fourth-container-icon-text">
-                            <a href="https://github.com/BhatuJay" target="_blank">
-                                <h1 class="fourth-container-icon-h1">50+</h1>
-                                <p class="fourth-container-icon-p">GitHub Commits</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="fourth-container-icon">
-                        <img src="assets/open-book-logo-svgrepo.svg" class="openbooklogo" alt="open-book-logo"
-                            title="open-book-logo">
-                        <div class="fourth-container-icon-text">
-                            <h1 class="fourth-container-icon-h1">2</h1>
-                            <p class="fourth-container-icon-p">Years of Learning</p>
-                        </div>
-                    </div>
-                    <div class="fourth-container-icon">
-                        <img src="assets/coretechnologies-svgrepo.svg" class="coretechnologieslogo"
-                            alt="Core-Technologies-logo" title="Core-Technologies-logo">
-                        <div class="fourth-container-icon-text">
-                            <h1 class="fourth-container-icon-h1">4+</h1>
-                            <p class="fourth-container-icon-p">Core Technologies</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <ul>
+                        <li>Authentication</li>
+                        <li>Blog Management</li>
+                        <li>CRUD Features</li>
+                        <li>Responsive Design</li>
+                    </ul>
 
-    <!-- SEVENTH PAGE -->
-    <section id="Projects">
-        <div class="main-container-width">
-            <div class="seventh-container-body">
-                <div class="seventh-container-body-heading">
-                    <h1 class="seventh-container-h1">My Recent Work</h1>
-                    <p class="seventh-container-p1">
-                        A collection of projects where I've applied my skills in front-end development to build
-                        responsive, user-friendly, and functional web applications.
-                    </p>
-                </div>
-
-                <!-- seventh container with a max-width of 1200px -->
-                <div class="seventh-container">
-                    <!-- Slider Card 1 -->
-                    <div id="slider1" class="slider-container">
-                        <!-- Area for the image slider -->
-                        <div class="slider-image-area">
-                            <div class="slider-wrapper">
-                                <!-- Images for the first slider -->
-                                <img src="/assets/ProjectsImg/React_Todo_Home.png"
-                                    alt="Slider 1 Image 1 React_Todo_Home">
-                                <img src="/assets/ProjectsImg/React_Todo_About.png"
-                                    alt="Slider 1 Image 2 React_Todo_About">
-                                <img src="/assets/ProjectsImg/React_Todo_List.png"
-                                    alt="Slider 1 Image 3 React_Todo_List">
-                            </div>
-                            <button class="slider-btn prev-btn">&#10094;</button>
-                            <button class="slider-btn next-btn">&#10095;</button>
-                            <div class="dots-container"></div>
-                        </div>
-                        <!-- Content body for the card -->
-                        <div class="slider-body">
-                            <h3>React Todos – Dynamic Task Portal</h3>
-                            <p class="description">This project features a robust state management system that allows
-                                users to create, read, update, and delete tasks directly in the browser. Tasks are
-                                managed on the client-side using local storage, ensuring persistence across sessions.
-                                The application presents todos in a clean, card-based layout, giving each task a
-                                “post-like” appearance. Additionally, it demonstrates seamless integration with external
-                                data by fetching sample tasks from the JSONPlaceholder REST API, showcasing how internal
-                                and third-party data can be combined into one unified portal.</p>
-                            <div class="tech-stack">
-                                <span class="tech-tag">React</span>
-                                <!-- <span class="tech-tag">Redux Toolkit</span> -->
-                                <span class="tech-tag">REST API</span>
-                                <span class="tech-tag">HTML</span>
-                                <span class="tech-tag">CSS</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/VimalMalam/React-Todo" target="_blank"
-                                    class="link-btn">GitHub</a>
-                                <!-- <a href="https://react-posts-coral.vercel.app" target="_blank"
-                                    class="link-btn live-demo">Live Demo</a> -->
-                            </div>
-                        </div>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>JWT</span>
+                        <span>Vercel</span>
                     </div>
 
-
-                    <div id="slider2" class="slider-container">
-
-                        <div class="slider-image-area">
-                            <div class="slider-wrapper">
-
-                                <img src="/assets/ProjectsImg/Blog_Post_Login.png"
-                                    alt="Slider 2 Image 1 Blog_Post_Login">
-                                <img src="/assets/ProjectsImg/Blog_Post_Home.png" alt="Slider 2 Image 2 Blog_Post_Home">
-                                <img src="/assets/ProjectsImg/Blog_Post_Cards.png"
-                                    alt="Slider 2 Image 3 Blog_Post_Cards">
-                                <img src="/assets/ProjectsImg/Blog_Post_Blog.png" alt="Slider 2 Image 4 Blog_Post_Blog">
-                            </div>
-                            <button class="slider-btn prev-btn">&#10094;</button>
-                            <button class="slider-btn next-btn">&#10095;</button>
-                            <div class="dots-container"></div>
-                        </div>
-
-                        <div class="slider-body">
-                            <h3>React Blog – Write, Update & Publish with Ease</h3>
-                            <p class="description">This blog application makes writing and managing posts simple and
-                                enjoyable. Users can securely log in and perform full CRUD operations—creating new
-                                posts, updating existing ones, or deleting content when needed. Each post includes a
-                                title, description, and body, giving writers the flexibility to share their thoughts,
-                                tutorials, or stories in a structured way. With a clean and minimal interface, the app
-                                focuses on making content creation smooth and distraction-free. Whether used for
-                                personal blogging or sharing knowledge, this application offers a straightforward
-                                platform to publish and manage posts with ease.</p>
-                            <div class="tech-stack">
-                                <span class="tech-tag">React</span>
-                                <span class="tech-tag">Vercel</span>
-                                <span class="tech-tag">HTML</span>
-                                <span class="tech-tag">CSS</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/VimalMalam/blog-post" target="_blank"
-                                    class="link-btn">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- EIGHTH PAGE -->
-    <section class="main-container-color" id="Contact">
-        <div class="main-container-width">
-            <div class="eighth-container-body">
-                <p class="eighth-container-p1">Open to full-time opportunities, ready to build impactful solutions.</p>
-                <div class="eighth-container-p2-body">
-                    <a href="https://www.linkedin.com/in/vimal-malam" target="_blank">
-                        <p class="eighth-container-p2">LinkedIn</p>
+                    <a href="https://github.com/VimalMalam/blog-post" target="_blank">
+                        <button class="primary-btn">GitHub</button>
                     </a>
-                    <img src="assets/eighth-container-right-arrow-svgrepo.svg" class="eighth-container-right-arrow"
-                        alt="right-arrow">
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
-    <!-- NINTH PAGE -->
-    <section class="footer-container-color">
-        <div class="main-container-width">
-            <footer>
-                <div class="jblogo-footer">MALAM VIMAL</div>
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
 
-                <div class="social-icons">
-                    <a href=https://github.com/VimalMalam target="_blank">
-                        <img src="https://cdn.simpleicons.org/github/ffffff" class="footer-githublogo" alt="github">
-                    </a>
-                    <a href="https://www.linkedin.com/in/vimal-malam" target="_blank">
-                        <img src="assets/linkedin-svgrepo.svg" class="footer-linkdinlogo" alt="">
-                    </a>
-                    <a href="https://instagram.com/v_m5146" target="_blank">
-                        <img src="https://cdn.simpleicons.org/instagram/ffffff" class="footer-instagramlogo"
-                            alt="instagram">
-                    </a>
-                </div>
-                <p id="copyright">Copyright © 2025 Malam Vimal All rights reserved</p>
-            </footer>
+        <h1>Let's Build Something Amazing</h1>
+
+        <p>
+            Open to Full Stack Developer opportunities,
+            freelance work, and collaborative projects.
+        </p>
+
+        <div class="contact-buttons">
+
+            <a href="mailto:vimal@gmail.com">
+                <button>Email Me</button>
+            </a>
+
+            <a href="https://www.linkedin.com/in/vimal-malam" target="_blank">
+                <button>LinkedIn</button>
+            </a>
+
+            <a href="https://github.com/VimalMalam" target="_blank">
+                <button>GitHub</button>
+            </a>
+
         </div>
+
     </section>
 
+    <!-- FOOTER -->
+    <footer>
 
+        <div class="footer-logo">
+            MALAM VIMAL
+        </div>
 
-    <!-- Link to the external JavaScript file -->
-    <script src="script.js"></script>
+        <div class="footer-icons">
+
+            <a href="https://github.com/VimalMalam" target="_blank">
+                <img src="https://cdn.simpleicons.org/github/ffffff" alt="">
+            </a>
+
+            <a href="https://www.linkedin.com/in/vimal-malam" target="_blank">
+                <img src="assets/linkedin-svgrepo.svg" alt="">
+            </a>
+
+            <a href="https://instagram.com/v_m5146" target="_blank">
+                <img src="https://cdn.simpleicons.org/instagram/ffffff" alt="">
+            </a>
+
+        </div>
+
+        <p>
+            Copyright © 2026 Malam Vimal. All rights reserved.
+        </p>
+
+    </footer>
+
 </body>
 
 </html>
