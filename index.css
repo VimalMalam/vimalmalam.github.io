@@ -598,6 +598,8 @@ section.active {
 
 .projects-grid {
 
+    align-items: center;
+
     display: grid;
 
     grid-template-columns: repeat(2,1fr);
