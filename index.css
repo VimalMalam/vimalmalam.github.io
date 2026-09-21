@@ -99,7 +99,9 @@ body {
 
     color: #c62828;
 
-    font-family: BatmanForeverAlternate;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 nav a {
@@ -772,7 +774,9 @@ footer {
 
     color: #c62828;
 
-    font-family: BatmanForeverAlternate;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 .footer-icons {
